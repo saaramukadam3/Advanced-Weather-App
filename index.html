@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Now</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="dark-toggle" class="floating-icon">🌙</button>
+  <div class="container">
+    <div class="weather-card">
+      
+      <h2>🌤️ Weather Now</h2>
+
+      <div class="search-box">
+        <input type="text" id="city" placeholder="Enter city name">
+        <button onclick="getWeather()">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+
+      <div id="loading" class="loading">Loading...</div>
+
+      <div class="weather-info" id="weather">
+        <img id="icon" src="" alt="">
+        <h1 id="temp"></h1>
+        <h3 id="cityName"></h3>
+        <p id="desc"></p>
+
+        <div class="details">
+          <div>
+            <i class="fas fa-water"></i>
+            <span id="humidity"></span>
+          </div>
+          <div>
+            <i class="fas fa-wind"></i>
+            <span id="wind"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button id="theme-toggle" class="theme-toggle">🌙</button>
+
+  <div class="weather-container">
+    <h1> 🌤️Weather App</h1>
+
+    <div class="search">
+      <input type="text" id="city" placeholder="Enter city name">
+      <button id="search">Search</button>
+    </div>
+
+    <div class="weather-info">
+      <h2 id="location">--</h2>
+      <p id="temp">-- °C</p>
+      <p id="desc">--</p>
+      <p id="humidity">Humidity: --%</p>
+      <p id="wind">Wind: -- km/h</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
