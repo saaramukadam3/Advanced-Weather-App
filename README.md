@@ -24,3 +24,7 @@ An advanced and responsive weather application that displays real-time weather i
 
  ## 🚀 Live Demo
 🔗 https://weathercasttemp.netlify.app/
+---
+## 📸 Screenshots
+<img width="795" height="403" alt="image" src="https://github.com/user-attachments/assets/ced8e67c-c24d-4d8d-a332-742b03271634" />
+
