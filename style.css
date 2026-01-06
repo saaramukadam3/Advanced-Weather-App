@@ -5,7 +5,6 @@
   font-family: Arial, sans-serif;
 }
 
-/* THEME VARIABLES */
 :root {
   --bg: linear-gradient(135deg, #667eea, #764ba2);
   --card-bg: #ffffff;
@@ -30,7 +29,6 @@ body {
   transition: 0.4s ease;
 }
 
-/* TOGGLE BUTTON */
 .theme-toggle {
   position: fixed;
   top: 20px;
@@ -44,7 +42,6 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* WEATHER CARD */
 .weather-container {
   background: var(--card-bg);
   width: 320px;
@@ -80,4 +77,5 @@ body {
 #temp {
   font-size: 36px;
   margin: 10px 0;
+
 }
