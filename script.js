@@ -1,8 +1,5 @@
-// const apiKey = "bbcad6853ad8d4d60b8ce9c657f0ad8f"; // OpenWeatherMap key
+const apiKey = "bbcad6853ad8d4d60b8ce9c657f0ad8f"; 
 
-const apiKey = "bbcad6853ad8d4d60b8ce9c657f0ad8f"; // 👈 add key here
-
-/* THEME TOGGLE */
 const toggleBtn = document.getElementById("theme-toggle");
 
 let theme = localStorage.getItem("theme") || "light";
@@ -16,7 +13,7 @@ toggleBtn.addEventListener("click", () => {
   toggleBtn.textContent = theme === "dark" ? "☀️" : "🌙";
 });
 
-/* WEATHER FUNCTION */
+
 document.getElementById("search").addEventListener("click", () => {
   const city = document.getElementById("city").value;
 
@@ -45,4 +42,5 @@ document.getElementById("search").addEventListener("click", () => {
         `Wind: ${data.wind.speed} km/h`;
     })
     .catch(() => alert("Error fetching data"));
+
 });
